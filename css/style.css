@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'spotify';
+    src: url('../font/spotify.woff2');
+}
+
+@font-face {
+    font-family: "spotify-bold";
+    src: url("../font/spotify-bold.woff2")
+}
+
+
+body{
+    overflow-x:hidden;
+    font-family: 'spotify';
+}
+
+*{
+    margin:0;
+    padding: 0;   
+}
+.blue-header{
+    width:100%;
+    height:51px;
+    background-color: #1D75DE;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    
+}
+ul {
+    display:flex;
+    list-style: none;
+}
+.blue-content li a {
+    color:#FFFFFF;
+    font-size: small;
+}
+.right-side li a{
+    padding:1px;
+    font-size: small;
+    color:#FFFFFF;
+    
+}
+.black-header{
+    height:83px;
+    background-color: black;
+    display:flex;
+    justify-content: cen;
+    align-items: center;
+    cursor:pointer;
+    width: 100%;
+}
+.black-header a img{
+    width:126px;
+    height:40px;
+    
+
+}
+
+
+
+.right-side li{
+    color:#FFFFFF;
+    padding:15px;
+    font-weight:bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+  
+ 
+}
+.right-side{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-right:30px;
+    margin:0px;
+}
+li a:hover{
+    color:#1ED742;
+}
+.right-side .color{
+    color:rgba(243, 245, 247, 0.945);
+}
+.right-side a{
+    text-decoration: none;
+}
+ .content{
+    width:100%;
+    height:865px;
+    background-color: #2941AB;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-position: right;
+    flex-direction: column;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+   
+ }
+  .content h1{
+    color: #1ED760;
+    width:1000px;
+    font-size: 156px;
+    line-height: 166px;
+    padding-bottom: 40px;
+    text-align: center;
+    letter-spacing: -0.04em !important;
+    font-family: "spotify-bold";
+    
+}
+span h3{
+    padding-top:39px;
+}
+button{
+    margin-top:38px;
+    width: 253px;
+    height:47px;
+    border-radius: 30px;
+    border:none;
+    background-color: #1ED742;
+    cursor: pointer;
+   
+
+}
+.content button span{
+    color:#2941AB;
+    font-weight: bold;
+    font-size:  medium;
+    line-height: 10px;
+    
+    
+}
+
+
+span h3{
+    color:#1ED742;
+    font-weight: bold;
+    font-size: medium ;
+    letter-spacing: 1px;
+    
+}
+
+.reg-button{
+    background-color:  #2DE26D;
+    width: 250px;
+    height: 47px;
+    color: #2941AB;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+.blck-content{
+    display:flex;
+    width:1157px;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.blue-content{
+    width: 1157px;
+    display: flex;
+
+}
+.footer{
+    display:flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    height:528px;
+    background-color: black;
+    align-items: flex-start;
+}
+  a img{
+    width:139px;
+    height:40px;
+}
+img{
+    margin-top:81px;
+    padding-left:103px;
+}
+ 
+ 
+ .list-style{
+    width:850px;
+    display:flex;
+    flex-direction: row;
+    color:#FFFFFF;
+    align-items: flex-start;
+    justify-content: center;
+
+ }
+ .list{
+    list-style: none;
+    padding:88px;
+    padding-top:85px;
+    width:170px;
+    height:271px;
+   
+    
+
+ }
+ .list a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+    
+    
+    
+    
+    
+ }
+.style a{
+    color: #919496;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+    
+ 
+
+
+
+.blck-content img{
+    margin-top: 0;
+    padding-top: 0;
+}
